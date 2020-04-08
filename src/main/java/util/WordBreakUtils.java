@@ -1,3 +1,5 @@
+package util;
+
 import org.springframework.util.StringUtils;
 import pojo.enums.DictionaryTypeEnum;
 

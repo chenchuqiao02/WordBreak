@@ -1,10 +1,10 @@
 package pojo.enums;
 /**
- * workBreakTypeEnum
+ * DictionaryTypeEnum
  * @author Jo
  * @date 2020/04/01
  */
-public enum WordBreakTypeEnum {
+public enum DictionaryTypeEnum {
     /**
      * the fixed dictionary
      */
@@ -23,7 +23,7 @@ public enum WordBreakTypeEnum {
     private String desc;
 
 
-    WordBreakTypeEnum(Integer value, String desc) {
+    DictionaryTypeEnum(Integer value, String desc) {
         this.value = value;
         this.desc = desc;
     }
