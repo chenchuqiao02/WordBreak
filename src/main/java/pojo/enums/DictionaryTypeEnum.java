@@ -1,20 +1,20 @@
 package pojo.enums;
 /**
- * workBreak枚举类型
+ * workBreakTypeEnum
  * @author Jo
  * @date 2020/04/01
  */
-public enum WorkBreakTypeEnum {
+public enum WordBreakTypeEnum {
     /**
-     * 固定字典
+     * the fixed dictionary
      */
     FIXED_DICTIONARY(0,"固定字典"),
     /**
-     * 用户自定义字典
+     * the user customized dictionary
      */
     USER_DICTIONARY(1, "用户自定义字典"),
     /**
-     * 合成字典
+     *  both dictionaries
      */
     BOTH(2, "合成字典")
     ;
@@ -23,7 +23,7 @@ public enum WorkBreakTypeEnum {
     private String desc;
 
 
-    WorkBreakTypeEnum(Integer value, String desc) {
+    WordBreakTypeEnum(Integer value, String desc) {
         this.value = value;
         this.desc = desc;
     }
